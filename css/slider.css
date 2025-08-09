@@ -1,0 +1,145 @@
+.slider-container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  align-items: center;
+  padding: 50px 60px;
+  gap: 20px;
+
+  background-image: url("../img/headerScooterPhoto.webp");
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide-left,
+.slide-center,
+.slide-right {
+  position: relative;
+  z-index: 2;
+}
+
+.slide-left {
+  color: #4a5558;
+}
+.slide-left h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.slide-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #4a5558;
+}
+.slide-right .category {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.slide-right h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+.slide-right p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin: 0;
+  max-width: 250px;
+}
+.slide-right .price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.buy-button,
+.buyNow,
+.arrival .buyNowArrivalSec {
+  background-color: #ffdd00;
+  color: #333;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+}
+
+.buy-button:hover,
+.buyNow:hover,
+.arrival .buyNowArrivalSec:hover,
+.readMore:hover {
+  background-color: var(--textMainColor) !important;
+  color: white;
+}
+
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+}
+.prev-btn {
+  left: 20px;
+}
+.next-btn {
+  right: 20px;
+}
+.pagination-lines {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1px;
+  z-index: 10;
+  background-color: white;
+}
+.line {
+  width: 20px;
+  height: 4px;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.line.active {
+  background-color: #ffdd00;
+}
+
+.slider img {
+  min-width: 200px !important;
+}

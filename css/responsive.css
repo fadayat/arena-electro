@@ -1,0 +1,189 @@
+@media (max-width: 914px) {
+  #myNavMain {
+    display: none !important;
+  }
+  .navTop {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex !important;
+    background-color: #fed700 !important;
+  }
+  #hampurger .right i {
+    font-size: 30px;
+  }
+  body {
+    padding-top: 0 !important;
+  }
+
+  .carusel-prods {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .cProdItem {
+    text-align: center !important;
+  }
+
+  .cProdItem img {
+    max-width: 150px !important;
+  }
+  .slide {
+    display: flex;
+    flex-direction: column;
+    background-size: 700px;
+  }
+
+  .deals {
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center !important;
+  }
+
+  .slider-container h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    top: 100%;
+  }
+  .slide {
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .slider-center {
+    margin-top: 50px !important;
+  }
+
+  .payAfter a {
+    padding: 10px 10px !important;
+  }
+
+  .payAfter {
+    text-align: center;
+  }
+
+  /* Hov sccoter secs */
+
+  .hovSctrSec1 a,
+  .hovSctrSec2 a,
+  .hovSctrSec3 a {
+    font-size: 10px;
+    padding: 7px 7px;
+  }
+
+  .ratingSecDiv {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .hovSctrSec3Cont {
+    position: absolute;
+  }
+
+  .hovSctrSec2Pos,
+  .hovSctrSec3Cont {
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hovScotOverLayCont {
+    padding: 220px 0;
+  }
+
+  .buyNowArrivalSec {
+    font-size: 10px !important;
+    padding: 7px 7px !important;
+    bottom: 0;
+  }
+  .boxes {
+    flex-direction: column !important;
+  }
+
+  .itemWhyTop {
+    min-width: 100px;
+  }
+  .whyTop,
+  .bottom,
+  .right {
+    align-items: center;
+    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    font-size: 10px;
+  }
+  .bottom .left,
+  .bottom .right {
+    min-width: 150px;
+    flex: 1 1 !important;
+  }
+
+  .cProdItem:not(:last-child) img {
+    border-right: none !important;
+  }
+
+  .blogsAndPoints {
+    flex-direction: column;
+    column-gap: 30px !important;
+    text-align: center !important;
+  }
+
+  .blogsAndPoints .blog {
+    flex-direction: column;
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .blogsAndPoints .blogs {
+    gap: 70px !important;
+  }
+
+  .blogsAndPoints .blog .blogDetails {
+    width: 80%;
+    text-align: center;
+  }
+
+  .readMore {
+    font-size: 10px !important;
+    padding: 5px 10px !important;
+  }
+
+  .footerTop {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footerTop .right {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  input[type="email"] {
+    padding: 10px;
+    font-size: 10px;
+    width: 100%;
+    border-radius: 50px;
+  }
+
+  input[type="email"] ~ button {
+    padding: 5px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 10px;
+    top: 110%;
+    right: 5%;
+  }
+
+  .SubscribeInput {
+    text-align: center;
+  }
+
+  .footerBottom {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    row-gap: 30px;
+  }
+}

@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- EXAM LINK -->
+  <!-- https://bootstrapmade.com/demo/Visible/ -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- FONTAWSOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- CONTACT LOC. AND LOGIN -->
+      <div id="mainNav" class="navTop">
+        <div
+          class="container d-flex justify-content-between align-items-center px-3"
+        >
+          <span class="contact d-flex align-items-center">
+            <i class="fa-solid fa-phone"></i>
+            <span> +060 (800) 801-858​​ </span>
+          </span>
+          <h1>electro<span class="dot">.</span></h1>
+          <div
+            class="loc-login d-flex align-items-center justify-content-between"
+          >
+            <div class="loc">
+              <i class="fa-solid fa-location-dot"></i> Store Locator
+              <span>|</span>
+            </div>
+            <div class="login"><i class="fa-solid fa-user"></i> My Account</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HAMBURGER MENU -->
+      <div
+        id="hamburger"
+        class="hamburger bg-light align-items-center container d-flex"
+      >
+        <div class="left d-flex align-items-center gap-3">
+          <i class="fa-solid fa-grip-lines"></i>
+          <h1 class="mb-3">electro<span class="dot">.</span></h1>
+        </div>
+        <div class="right d-flex justify-content-end gap-2">
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <!-- <div class="rightSide d-flex align-items-center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="heart animationDiv">
+            <i class="fa-regular fa-heart"></i>
+            <span class="animationSpan">1</span>
+          </div>
+          <div class="shopping-card animationDiv d-flex">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="animationSpan">1</span>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- NAVBAR -->
+      <div class="container"><hr /></div>
+
+      <nav
+        id="myNavMain"
+        class="container d-flex align-items-center justify-content-between"
+      >
+        <div class="leftSide justify-content-between">
+          <ul class="d-flex justify-content-between">
+            <li class="dropdown">
+              Home <i class="fa-solid fa-chevron-down"></i>
+              <ul class="dropdown-content">
+                <!-- <hr /> -->
+                <li><a href="#">Ana səhifə</a></li>
+                <li><a href="#">Haqqımızda</a></li>
+                <li><a href="#">Əlaqə</a></li>
+              </ul>
+            </li>
+
+            <!--  -->
+            <li class="dropdown">
+              Catalog <i class="fa-solid fa-chevron-down"></i>
+              <div class="dropdown-catalog-content">
+                <div class="column">
+                  <h3>Single Product Pages</h3>
+                  <ul>
+                    <li><a href="#">Single Product Extended</a></li>
+                    <li><a href="#">Single Product Sidebar</a></li>
+                    <li><a href="#">Single Product Full</a></li>
+                    <li><a href="#">Group Product</a></li>
+                    <li><a href="#">Product Redirect</a></li>
+                    <li><a href="#">Product Sold Out</a></li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <h3>Shop Pages</h3>
+                  <ul>
+                    <li><a href="#">Shop Left Sidebar</a></li>
+                    <li><a href="#">Shop Right Sidebar</a></li>
+                    <li><a href="#">Shop Full Width</a></li>
+                    <li><a href="#">Shop Sub Collection</a></li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <h3>Ecommerce Page</h3>
+                  <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">FAQs</a></li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <h3>Blog Style</h3>
+                  <ul>
+                    <li><a href="#">Blog Style 01</a></li>
+                    <li><a href="#">Blog Style 02</a></li>
+                  </ul>
+                  <div class="ad-banner">
+                    <img src="./img/scooterPhoto.jpg" alt="Electro Exclusive" />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item-with-dropdown">
+              Gift Cards <i class="fa-solid fa-chevron-down"></i>
+
+              <div class="dropdown-imgs">
+                <ul class="d-flex">
+                  <li>
+                    <h4>3i Three Wheeler Scooter</h4>
+                    <div class="scooterImageDropdown">
+                      <span class="badge badge-new">NEW</span>
+                      <img
+                        src="./img/e-scot-img.png"
+                        alt="3i Three Wheeler Scooter"
+                      />
+                    </div>
+                    <div class="price">$310.00</div>
+                  </li>
+
+                  <li>
+                    <h4>Blutron One S40</h4>
+                    <div class="scooterImageDropdown">
+                      <span class="badge badge-new">NEW</span>
+                      <img src="./img/e-scot-img.png" alt="Blutron One S40" />
+                    </div>
+                    <div class="price">$710.00</div>
+                  </li>
+
+                  <li>
+                    <h4>Commuter E-Bikes</h4>
+                    <div class="scooterImageDropdown">
+                      <span class="badge badge-new">NEW</span>
+                      <img src="./img/e-scot-img.png" alt="Commuter E-Bikes" />
+                    </div>
+                    <div class="price">$610.00</div>
+                  </li>
+
+                  <li>
+                    <h4>Cruiser E-Bikes</h4>
+                    <div class="scooterImageDropdown">
+                      <span class="badge badge-sale">20%</span>
+                      <span class="badge badge-new second-badge">NEW</span>
+                      <img src="./img/e-scot-img.png" alt="Cruiser E-Bikes" />
+                    </div>
+                    <div class="price">
+                      <span class="sale-price">$199.00</span>
+                      <del>$249.00</del>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              Pages
+              <!-- <i class="fa-solid fa-chevron-down"></i> -->
+            </li>
+
+            <li><a href="#">Features</a></li>
+          </ul>
+        </div>
+
+        <!-- NAVBAR RIGHT SIDE -->
+        <div
+          class="rightSide d-flex justify-content-between align-items-center"
+        >
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="heart animationDiv">
+            <i class="fa-regular fa-heart"></i>
+            <span class="animationSpan">1</span>
+          </div>
+          <div class="shopping-card animationDiv">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="animationSpan">1</span>
+          </div>
+          <span><b>$346</b></span>
+        </div>
+        <!-- END OF NAVBAR RIGHT SIDE -->
+      </nav>
+
+      <!-- SLIDER  -->
+
+      <div class="slider-container container">
+        <button class="slider-nav prev-btn">&#10094;</button>
+        <button class="slider-nav next-btn">&#10095;</button>
+        <div class="slider-wrapper">
+          <div class="slide">
+            <div class="slide-left">
+              <h1>
+                ALL-NEW <br />
+                HERO SERIES ` <br />
+                24
+              </h1>
+            </div>
+            <div class="slide-center"></div>
+            <div class="slide-right">
+              <p class="category">Commuter E-Bikes</p>
+              <h2>Commuter E-Bikes</h2>
+              <p>AI-InOne Omni Obstacle Sensing Mini Camera Drone</p>
+              <div class="price">$610.00</div>
+              <button class="buy-button">Start buying</button>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-left">
+              <h1>
+                ALL-NEW <br />
+                HERO SERIES ` <br />
+                24
+              </h1>
+            </div>
+            <div class="slide-center"></div>
+            <div class="slide-right">
+              <p class="category">Commuter E-Bikes</p>
+              <h2>Commuter E-Bikes</h2>
+              <p>AI-InOne Omni Obstacle Sensing Mini Camera Drone</p>
+              <div class="price">$610.00</div>
+              <button class="buy-button">Start buying</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination-lines">
+          <span class="line active" data-slide="0"></span>
+          <span class="line" data-slide="1"></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- FIRST SEC ABOUT DEALS -->
+      <section class="container d-flex justify-content-between deals">
+        <div class="item">
+          <div class="overlay"></div>
+          <img src="./img/firstSecDealPhoto.png" alt="" />
+          <h6>Super Deals</h6>
+        </div>
+
+        <div class="item">
+          <div class="overlay"></div>
+
+          <img src="./img/firstSecDealPhoto.png" alt="" />
+          <h6>Super Deals</h6>
+        </div>
+
+        <div class="item">
+          <div class="overlay"></div>
+
+          <img src="./img/firstSecDealPhoto.png" alt="" />
+          <h6>Super Deals</h6>
+        </div>
+
+        <div class="item">
+          <div class="overlay"></div>
+
+          <img src="./img/firstSecDealPhoto.png" alt="" />
+          <h6>Super Deals</h6>
+        </div>
+
+        <div class="item">
+          <div class="overlay"></div>
+
+          <img src="./img/firstSecDealPhoto.png" alt="" />
+          <h6>Super Deals</h6>
+        </div>
+
+        <div class="item">
+          <div class="overlay"></div>
+
+          <img src="./img/firstSecDealPhoto.png" alt="" />
+          <h6>Super Deals</h6>
+        </div>
+      </section>
+      <!-- END OF FIRST SEC THAT ABOUT DEALS -->
+
+      <!-- PAY AFTER SEC -->
+      <section class="payAfter">
+        <div
+          class="container payAfterSecPad d-flex flex-column align-items-center"
+        >
+          <h5>PayAfter Payment</h5>
+          <a href="#"> Shop Now. Enjoy Now. Pay Later.</a>
+          <p>In simple instalments available at checkout.</p>
+        </div>
+      </section>
+      <!-- END OF PAY AFTER SEC -->
+
+      <!-- HOOVER SCOOTER SEC 1 -->
+      <section class="hovSctrSec1 d-flex flex-column hovScotOverLayCont">
+        <div class="hovScotOverLay"></div>
+        <div class="container">
+          <p class="fw-bold">Now available!</p>
+          <h4 class="fw-bold my-2">Hoover Scooter 4 Pro</h4>
+          <p class="mb-5">
+            Al-inOne Omni Obstacle Sensing Mini Camera Drone <br />
+            From $890
+          </p>
+          <a href="#" class="buyNow">BUY NOW</a>
+        </div>
+      </section>
+      <!-- HOOVER SCOOTER SEC 2 -->
+      <section class="hovSctrSec2 hovScotOverLayCont position-relative">
+        <div class="hovScotOverLay"></div>
+        <div class="container hovSctrSec2Pos position-absolute">
+          <p class="fw-bold">Now available!</p>
+          <h4 class="fw-bold my-2">Hoover Scooter 4 Pro</h4>
+          <p class="mb-5">
+            Al-inOne Omni Obstacle Sensing Mini Camera Drone <br />
+            From $890
+          </p>
+          <a href="#" class="buyNow">BUY NOW</a>
+        </div>
+      </section>
+      <!-- HOOVER SCOOTER SEC 3 -->
+      <section class="hovSctrSec3 d-flex hovScotOverLayCont position-relative">
+        <div class="hovScotOverLay"></div>
+        <div class="container hovSctrSec3Cont">
+          <p class="fw-bold">Now available!</p>
+          <h4 class="fw-bold my-2">Hoover Scooter 4 Pro</h4>
+          <p class="mb-5">
+            Al-inOne Omni Obstacle Sensing Mini Camera Drone <br />
+            From $890
+          </p>
+          <a href="#" class="buyNow">BUY NOW</a>
+        </div>
+      </section>
+      <!-- WHY SHOP WITH ELECTRO -->
+      <section class="whyShop container">
+        <!-- TOP PIECE -->
+        <h2 class="text-center mt-5 mb-4 fw-bold">Why Shop With Electro?</h2>
+        <div
+          class="whyTop d-flex justify-content-between mb-3 align-items-center"
+        >
+          <div class="itemWhyTop position-relative">
+            <img src="./img/WhyShop.avif" alt="whyTopIMg" />
+            <p class="position-absolute freeShip">
+              Free Shipping Orders Over $50
+            </p>
+          </div>
+
+          <div class="itemWhyTop position-relative">
+            <img src="./img/WhyShop.avif" alt="whyTopIMg" />
+            <p class="position-absolute freeShip">
+              Free Shipping Orders Over $50
+            </p>
+          </div>
+
+          <div class="itemWhyTop position-relative">
+            <img src="./img/WhyShop.avif" alt="whyTopIMg" />
+            <p class="position-absolute freeShip">
+              Free Shipping Orders Over $50
+            </p>
+          </div>
+
+          <div class="itemWhyTop position-relative">
+            <img src="./img/WhyShop.avif" alt="whyTopIMg" />
+            <p class="position-absolute freeShip">
+              Free Shipping Orders Over $50
+            </p>
+          </div>
+        </div>
+
+        <!-- END OF TOP -->
+        <!-- BOTTOM PIECE -->
+
+        <div class="bottom d-flex align-items-center">
+          <div class="left position-relative">
+            <img src="./img/supportPNg.webp" alt="whyTopIMg" />
+            <p class="position-absolute freeShip">
+              Free Shipping Orders Over $50
+            </p>
+          </div>
+
+          <div class="right d-flex">
+            <div class="gift position-relative">
+              <img class="" src="./img/WhyShop.avif" alt="whyTopIMg" />
+              <p class="position-absolute freeShip">
+                Free Shipping Orders Over $50
+              </p>
+            </div>
+            <div class="gift position-relative">
+              <img src="./img/WhyShop.avif" alt="whyTopIMg" />
+              <p class="position-absolute freeShip">
+                Free Shipping Orders Over $50
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF BOTTOM -->
+      <!-- END OF WHY SHOP WITH ELECTRO -->
+
+      <!-- Trending Products  sec -->
+
+      <section class="container">
+        <div class="trentTitle text-center py-5">
+          <h4>Trending Products This Week</h4>
+          <a href="#">View All Producst</a>
+        </div>
+        <!-- CARUSEL 2  -->
+        <div id="" class="carusel-prods d-flex justify-content-between my-4">
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/trendingProdPhoto.webp" alt="" />
+            <div class="priceAndCard d-flex align-items-center gap-2">
+              <span class="text-danger fs-4">$490.00</span>
+              <span class="text-decoration-line-through">$590.00</span>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/trendingProdPhoto.webp" alt="" />
+            <div class="priceAndCard d-flex align-items-center gap-2">
+              <span class="text-danger fs-4">$490.00</span>
+              <span class="text-decoration-line-through">$590.00</span>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/trendingProdPhoto.webp" alt="" />
+            <div class="priceAndCard d-flex align-items-center gap-2">
+              <span class="text-danger fs-4">$490.00</span>
+              <span class="text-decoration-line-through">$590.00</span>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/trendingProdPhoto.webp" alt="" />
+            <div class="priceAndCard d-flex align-items-center gap-2">
+              <span class="text-danger fs-4">$490.00</span>
+              <span class="text-decoration-line-through">$590.00</span>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- END OF CARUSEL 2 -->
+        </div>
+      </section>
+      <!-- ARRIVAL SEC  -->
+      <section class="arrival">
+        <h4 class="text-center mt-5 mb-4">New Arrivals</h4>
+        <div
+          class="boxes class container d-flex align-items-center justify-content-between gap-3"
+        >
+          <div class="box flex-grow-1 position-relative">
+            <div class="boxOverlay"></div>
+
+            <img src="./img/arrivalSecImg.webp" alt="ArrivalImg" />
+            <h6 class="position-absolute z-3">OneWheel Pint</h6>
+            <span class="position-absolute z-3"> From $599</span>
+            <button
+              href="#"
+              class="px-5 py-2 bg-warning position-absolute z-3 buyNowArrivalSec"
+            >
+              BUY NOW
+            </button>
+          </div>
+          <div class="box flex-grow-1 position-relative">
+            <div class="boxOverlay"></div>
+
+            <img src="./img/arrivalSecImg.webp" alt="ArrivalImg" />
+            <h6 class="position-absolute z-3">OneWheel Pint</h6>
+            <span class="position-absolute z-3"> From $599</span>
+            <a
+              href="#"
+              class="px-5 py-2 bg-warning position-absolute z-3 buyNowArrivalSec"
+              >BUY NOW</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- END OF ARRIVAL SEC -->
+
+      <!-- ALSO LIKE SEC -->
+      <section class="alsoLikeSec container pb-5">
+        <h4 class="text-center py-5">You May Also Like</h4>
+
+        <!-- PRODUCTS -->
+        <div class="carusel-prods d-flex justify-content-center gap-3">
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/alsoLikeSecProdItem.webp" alt="" />
+            <div
+              class="priceAndCard d-flex align-items-center w-100 justify-content-between"
+            >
+              <div class="prices d-flex flex-column">
+                <span class="text-danger fs-4">$490.00</span>
+                <span class="text-decoration-line-through">$590.00</span>
+              </div>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/alsoLikeSecProdItem.webp" alt="" />
+            <div
+              class="priceAndCard d-flex align-items-center w-100 justify-content-between"
+            >
+              <div class="prices d-flex flex-column">
+                <span class="text-danger fs-4">$490.00</span>
+                <span class="text-decoration-line-through">$590.00</span>
+              </div>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/alsoLikeSecProdItem.webp" alt="" />
+            <div
+              class="priceAndCard d-flex align-items-center w-100 justify-content-between"
+            >
+              <div class="prices d-flex flex-column">
+                <span class="text-danger fs-4">$490.00</span>
+                <span class="text-decoration-line-through">$590.00</span>
+              </div>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/alsoLikeSecProdItem.webp" alt="" />
+            <div
+              class="priceAndCard d-flex align-items-center w-100 justify-content-between"
+            >
+              <div class="prices d-flex flex-column">
+                <span class="text-danger fs-4">$490.00</span>
+                <span class="text-decoration-line-through">$590.00</span>
+              </div>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/alsoLikeSecProdItem.webp" alt="" />
+            <div
+              class="priceAndCard d-flex align-items-center w-100 justify-content-between"
+            >
+              <div class="prices d-flex flex-column">
+                <span class="text-danger fs-4">$490.00</span>
+                <span class="text-decoration-line-through">$590.00</span>
+              </div>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="cProdItem position-relative">
+            <span class="text-secondary">Electrik Skuters</span>
+            <h5 class="text-primary fs-6 fw-bold my-2">
+              Kids ELectrik Scooter
+            </h5>
+            <span class="position-absolute text-light bg-success topSpan">
+              NEW
+            </span>
+            <span class="position-absolute text-light bg-success bottomSpan">
+              NEW
+            </span>
+            <img class="w-100" src="./img/alsoLikeSecProdItem.webp" alt="" />
+            <div
+              class="priceAndCard d-flex align-items-center w-100 justify-content-between"
+            >
+              <div class="prices d-flex flex-column">
+                <span class="text-danger fs-4">$490.00</span>
+                <span class="text-decoration-line-through">$590.00</span>
+              </div>
+              <a href="#">
+                <i class="fa-solid fa-cart-plus text-secondary fs-4"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END OF PRODUCTS -->
+      </section>
+      <!-- END OF ALSO LIKE SEC -->
+
+      <!-- RATING SEC -->
+      <section class="ratingSec">
+        <div
+          class="container d-flex align-items-center justify-content-between ratingSecDiv"
+        >
+          <h1 class="fw-bold">electro<span class="dot">.</span></h1>
+          <div class="ratingStar">
+            <span class="fs-1 text-warning fw-bold">4.9</span>
+            <span class="text-secondary">/5.0</span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="ratingInfo">
+            <p class="fs-4">Shop Overview Rating Electro.com</p>
+            <p class="text-secondary">
+              Based On Over 15 000 + Customer Reviews
+            </p>
+          </div>
+          <div class="sertificates">
+            <img src="./img/sertificate1.webp" alt="" />
+            <img src="./img/sertificate.png" alt="" />
+          </div>
+          <a class="px-3 py-2 fw-bold bg-dark text-light reviews" href="#"
+            >READ ALL REVIEWS</a
+          >
+        </div>
+      </section>
+      <!-- END OF RATING SEC -->
+
+      <!-- BLOGS SEC -->
+      <section class="container d-flex blogsAndPoints gap-4">
+        <div class="points d-flex flex-column gap-3">
+          <h6 class="fs-3">Collect points, buy cheaper</h6>
+          <p>
+            For each order you receive a reward in the form of points for the
+            purchase, which are then converted into a financial discount. You
+            can use this amount on your next order!
+          </p>
+          <div>
+            <a class="px-3 bg-warning py-2 fw-bold readMore" href="#"
+              >READ MORE</a
+            >
+          </div>
+          <img src="./img/colllectPoints.png" alt="" />
+        </div>
+        <div class="blogs d-flex flex-column justify-content-around gap-3">
+          <h5 class="fs-3">Read From Our Blog</h5>
+          <div class="blog d-flex gap-3 align-items-center">
+            <div class="img">
+              <img class="" src="./img/blogImg.webp" alt="blogImg" />
+            </div>
+            <div class="blogDetails d-flex flex-column justify-content-around">
+              <p class="fw-bold">Extending Baterries: Will they fit?</p>
+              <p>
+                Nunc congue orci eget justo euismod maximus ac at velit.
+                Curabitur a nulla at velit tincidunt tincidunt ut eget augue.
+                Duis congue scelerisque nulla, ut cursus eros faucibus...
+              </p>
+              <a class="fw-bold" href="#"> Read more -></a>
+            </div>
+          </div>
+
+          <div class="blog d-flex gap-3 align-items-center">
+            <div class="img">
+              <img class="" src="./img/blogImg.webp" alt="blogImg" />
+            </div>
+            <div class="blogDetails d-flex flex-column justify-content-around">
+              <p class="fw-bold">Extending Baterries: Will they fit?</p>
+              <p>
+                Nunc congue orci eget justo euismod maximus ac at velit.
+                Curabitur a nulla at velit tincidunt tincidunt ut eget augue.
+                Duis congue scelerisque nulla, ut cursus eros faucibus...
+              </p>
+              <a class="fw-bold" href="#"> Read more -></a>
+            </div>
+          </div>
+
+          <div class="blog d-flex gap-3 align-items-center">
+            <div class="img">
+              <div class="overlay"></div>
+              <img class="" src="./img/blogImg.webp" alt="blogImg" />
+            </div>
+            <div class="blogDetails d-flex flex-column justify-content-around">
+              <p class="fw-bold">Extending Baterries: Will they fit?</p>
+              <p>
+                Nunc congue orci eget justo euismod maximus ac at velit.
+                Curabitur a nulla at velit tincidunt tincidunt ut eget augue.
+                Duis congue scelerisque nulla, ut cursus eros faucibus...
+              </p>
+              <a class="fw-bold" href="#"> Read more -></a>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <a class="px-5 bg-warning py-2 fw-bold readMore" href="#">
+              Read More Articles
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- END OF BLOGS SEC -->
+    </main>
+    <footer class="">
+      <div class="container">
+        <div
+          class="footerTop d-flex align-items-center justify-content-between py-5"
+        >
+          <div class="right d-flex align-items-center justify-content-between">
+            <h6 class="fw-bold fs-5">NEWSLETTER</h6>
+            <span>-</span>
+            <p>Subscribe to get the latest deals, promotions and offering</p>
+          </div>
+          <div
+            class="SubscribeInput left d-flex justify-content-end position-relative align-items-center"
+          >
+            <input class="" type="email" placeholder="Enter Your Email " />
+            <button class="btn subBtn btn-warning position-absolute">
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+        <div
+          class="footerMid d-flex align-items-center justify-content-between flex-wrap"
+        >
+          <ul>
+            <li>
+              <b>Shop</b>
+            </li>
+            <li>Accessorises</li>
+            <li>Gaming</li>
+            <li>
+              Laptops &<br />
+              Computers
+            </li>
+            <li>Mac Computers</li>
+            <li>PC Computers</li>
+            <li>Ultrabooks</li>
+          </ul>
+
+          <ul>
+            <li>
+              <b>Shop</b>
+            </li>
+            <li>Accessorises</li>
+            <li>Gaming</li>
+            <li>
+              Laptops &<br />
+              Computers
+            </li>
+            <li>Mac Computers</li>
+            <li>PC Computers</li>
+            <li>Ultrabooks</li>
+          </ul>
+
+          <ul>
+            <li>
+              <b>Shop</b>
+            </li>
+            <li>Accessorises</li>
+            <li>Gaming</li>
+            <li>
+              Laptops &<br />
+              Computers
+            </li>
+            <li>Mac Computers</li>
+            <li>PC Computers</li>
+            <li>Ultrabooks</li>
+          </ul>
+
+          <ul>
+            <li>
+              <b>Shop</b>
+            </li>
+            <li><a href="#">Accessorises</a></li>
+            <li>Gaming</li>
+            <li>
+              Laptops &<br />
+              Computers
+            </li>
+            <li>Mac Computers</li>
+            <li>PC Computers</li>
+            <li>Ultrabooks</li>
+          </ul>
+        </div>
+        <div
+          class="footerBottom d-flex align-items-center pt-5 pb-3 justify-content-center"
+        >
+          <p>© 2025 <b>Arena Electro XII</b>. All Rights Reserved</p>
+          <div class="icons d-flex gap-2 flex-wrap">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-amex"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-brands fa-cc-discover"></i>
+            <i class="fa-brands fa-cc-visa"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- MY SCRIPTS -->
+    <script src="slider.js"></script>
+  </body>
+</html>
